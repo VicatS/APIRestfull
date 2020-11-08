@@ -43,7 +43,7 @@ class UserTransformer extends TransformerAbstract
             'fechaActualizacion' => (string)$user->updated_at,
             'fechaEliminacion' => isset($user->deleted_at) ? (string)$user->deleted_at : null,
 
-            'links' =>[
+            'links' => [
                 [
                     'rel' => 'self',
                     'href' => route('users.show', $user->id)
@@ -52,16 +52,37 @@ class UserTransformer extends TransformerAbstract
         ];
     }
 
-    public static function originalAttribute($index) {
+    public static function originalAttribute($index)
+    {
         $attributes = [
             'identificador' => 'id',
             'nombre' => 'name',
             'correo' => 'email',
             'esVerificado' => 'verified',
             'esAdministrador' => 'admin',
+            'contrasenia' => 'password',
+            'contrasenia_confirmation' => 'password_confirmation',
             'fechaCreacion' => 'created_at',
             'fechaActualizacion' => 'updated_at',
             'fechaEliminacion' => 'deleted_at'
+        ];
+
+        return isset($attributes[$index]) ? $attributes[$index] : null;
+    }
+
+    public static function transformedAttribute($index)
+    {
+        $attributes = [
+            'id' => 'identificador',
+            'name' => 'nombre',
+            'email' => 'correo',
+            'verified' => 'esVerificado',
+            'admin' => 'esAdministrador',
+            'password' => 'contrasenia',
+            'password_confirmation' => 'contrasenia_confirmation',
+            'created_at' => 'fechaCreacion',
+            'updated_at' => 'fechaActualizacion',
+            'deleted_at' => 'fechaEliminacion'
         ];
 
         return isset($attributes[$index]) ? $attributes[$index] : null;

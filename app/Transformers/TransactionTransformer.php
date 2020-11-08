@@ -42,7 +42,7 @@ class TransactionTransformer extends TransformerAbstract
             'fechaActualizacion' => (string)$transaction->updated_at,
             'fechaEliminacion' => isset($transaction->deleted_at) ? (string)$transaction->deleted_at : null,
 
-            'links' =>[
+            'links' => [
                 [
                     'rel' => 'self',
                     'href' => route('transactions.show', $transaction->id)
@@ -67,7 +67,8 @@ class TransactionTransformer extends TransformerAbstract
         ];
     }
 
-    public static function originalAttribute($index) {
+    public static function originalAttribute($index)
+    {
         $attributes = [
             'identificador' => 'id',
             'cantidad' => 'quantity',
@@ -76,6 +77,21 @@ class TransactionTransformer extends TransformerAbstract
             'fechaCreacion' => 'created_at',
             'fechaActualizacion' => 'updated_at',
             'fechaEliminacion' => 'deleted_at'
+        ];
+
+        return isset($attributes[$index]) ? $attributes[$index] : null;
+    }
+
+    public static function transformedAttribute($index)
+    {
+        $attributes = [
+            'id' => 'identificador',
+            'quantity' => 'cantidad',
+            'buyer_id' => 'comprador',
+            'product_id' => 'producto',
+            'created_at' => 'fechaCreacion',
+            'updated_at' => 'fechaActualizacion',
+            'deleted_at' => 'fechaEliminacion'
         ];
 
         return isset($attributes[$index]) ? $attributes[$index] : null;

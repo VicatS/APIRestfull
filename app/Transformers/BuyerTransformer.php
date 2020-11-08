@@ -42,7 +42,7 @@ class BuyerTransformer extends TransformerAbstract
             'fechaActualizacion' => (string)$buyer->updated_at,
             'fechaEliminacion' => isset($buyer->deleted_at) ? (string)$buyer->deleted_at : null,
 
-            'links' =>[
+            'links' => [
                 [
                     'rel' => 'self',
                     'href' => route('buyers.show', $buyer->id)
@@ -71,7 +71,9 @@ class BuyerTransformer extends TransformerAbstract
         ];
     }
 
-    public static function originalAttribute($index) {
+    // Transformando data con atributos similares para ocultar nuestros datos
+    public static function originalAttribute($index)
+    {
         $attributes = [
             'identificador' => 'id',
             'nombre' => 'name',
@@ -80,6 +82,22 @@ class BuyerTransformer extends TransformerAbstract
             'fechaCreacion' => 'created_at',
             'fechaActualizacion' => 'updated_at',
             'fechaEliminacion' => 'deleted_at'
+        ];
+
+        return isset($attributes[$index]) ? $attributes[$index] : null;
+    }
+
+    // Para corregir datos de validacion-mostrar errores
+    public static function transformedAttribute($index)
+    {
+        $attributes = [
+            'id' => 'identificador',
+            'name' => 'nombre',
+            'email' => 'correo',
+            'verified' => 'esVerificado',
+            'created_at' => 'fechaCreacion',
+            'updated_at' => 'fechaActualizacion',
+            'deleted_at' => 'fechaEliminacion'
         ];
 
         return isset($attributes[$index]) ? $attributes[$index] : null;
