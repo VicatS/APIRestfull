@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c46e4352-843e-41b6-bf43-bfe50a4ef8fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductCategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionCategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
     </list>
+    <list id="61c4810d-a8a5-488f-b939-7010c2db6b2a" name="179" comment="179. Cómo Obtener y Usar un Token&#10;Usando Client Credentials" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,6 +183,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c46e4352-843e-41b6-bf43-bfe50a4ef8fc" name="Default Changelist" comment="" />
+      <changelist id="61c4810d-a8a5-488f-b939-7010c2db6b2a" name="179" comment="179. Cómo Obtener y Usar un Token&#10;Usando Client Credentials" />
       <created>1603585345477</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -205,7 +201,7 @@
       <workItem from="1604708626072" duration="3583000" />
       <workItem from="1604759600705" duration="100000" />
       <workItem from="1604792682547" duration="8033000" />
-      <workItem from="1604858338592" duration="14302000" />
+      <workItem from="1604858338592" duration="15180000" />
     </task>
     <task id="LOCAL-00001" summary="Implementando tranformacion para mostrar mensajes correctos y autenticacion">
       <created>1604863368968</created>
@@ -228,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604881199790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="178. Usando client_credentials para&#10;Proteger Algunas Rutas">
+      <created>1604882513260</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604882513260</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +241,8 @@
     <MESSAGE value="Implementando tranformacion para mostrar mensajes correctos y autenticacion" />
     <MESSAGE value="176. Configurando el Sistema de Autenticacion" />
     <MESSAGE value="177. Definiendo el Tiempo de Expiracion de los Tokens" />
-    <option name="LAST_COMMIT_MESSAGE" value="177. Definiendo el Tiempo de Expiracion de los Tokens" />
+    <MESSAGE value="178. Usando client_credentials para&#10;Proteger Algunas Rutas" />
+    <option name="LAST_COMMIT_MESSAGE" value="178. Usando client_credentials para&#10;Proteger Algunas Rutas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="41" width="800" height="719" key="#Plugins" timestamp="1603845702193">
@@ -253,10 +257,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604712580025" />
-    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604881199687">
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604882513164">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604881199687" />
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604882513164" />
     <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1603928386739">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -269,6 +273,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="623" height="446" key="SwitcherDM/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604881583418" />
+    <state x="552" y="269" width="347" height="264" key="VCS.EditChangelistDialog" timestamp="1604882529897">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="552" y="269" width="347" height="264" key="VCS.EditChangelistDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604882529897" />
     <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604881251200">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
