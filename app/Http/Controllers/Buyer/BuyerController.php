@@ -9,6 +9,11 @@ use Illuminate\Http\Request;
 
 class BuyerController extends ApiController
 {
+    public function __construct()
+    {
+        parent::construct();
+    }
+
     /**
      * Display a listing of the resource.
      *

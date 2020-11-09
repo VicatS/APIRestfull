@@ -6,8 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="c46e4352-843e-41b6-bf43-bfe50a4ef8fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerSellerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerSellerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerTransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerTransactionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryBuyerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryBuyerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category/CategorySellerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/CategorySellerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryTransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryTransactionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductBuyerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductBuyerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductTransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductTransactionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerBuyerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerBuyerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerTransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerTransactionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionSellerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionSellerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
     </list>
-    <list id="61c4810d-a8a5-488f-b939-7010c2db6b2a" name="179" comment="179. Cómo Obtener y Usar un Token&#10;Usando Client Credentials" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +203,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c46e4352-843e-41b6-bf43-bfe50a4ef8fc" name="Default Changelist" comment="" />
-      <changelist id="61c4810d-a8a5-488f-b939-7010c2db6b2a" name="179" comment="179. Cómo Obtener y Usar un Token&#10;Usando Client Credentials" />
+      <changelist id="" name="179" comment="179. Cómo Obtener y Usar un Token&#10;Usando Client Credentials" />
       <created>1603585345477</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -201,7 +221,7 @@
       <workItem from="1604708626072" duration="3583000" />
       <workItem from="1604759600705" duration="100000" />
       <workItem from="1604792682547" duration="8033000" />
-      <workItem from="1604858338592" duration="15180000" />
+      <workItem from="1604858338592" duration="17612000" />
     </task>
     <task id="LOCAL-00001" summary="Implementando tranformacion para mostrar mensajes correctos y autenticacion">
       <created>1604863368968</created>
@@ -231,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604882513260</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="179. Cómo Obtener y Usar un Token&#10;Usando Client Credentials- Revisar Peticion Pedir Token">
+      <created>1604883239318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604883239319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +269,8 @@
     <MESSAGE value="176. Configurando el Sistema de Autenticacion" />
     <MESSAGE value="177. Definiendo el Tiempo de Expiracion de los Tokens" />
     <MESSAGE value="178. Usando client_credentials para&#10;Proteger Algunas Rutas" />
-    <option name="LAST_COMMIT_MESSAGE" value="178. Usando client_credentials para&#10;Proteger Algunas Rutas" />
+    <MESSAGE value="179. Cómo Obtener y Usar un Token&#10;Usando Client Credentials- Revisar Peticion Pedir Token" />
+    <option name="LAST_COMMIT_MESSAGE" value="179. Cómo Obtener y Usar un Token&#10;Usando Client Credentials- Revisar Peticion Pedir Token" />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="41" width="800" height="719" key="#Plugins" timestamp="1603845702193">
@@ -257,10 +285,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604712580025" />
-    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604882513164">
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604883239247">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604882513164" />
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604883239247" />
     <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1603928386739">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -269,10 +297,10 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1479" y="0" width="1022" height="737" key="SettingsEditor/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604801856122" />
-    <state width="623" height="446" key="SwitcherDM" timestamp="1604881583418">
+    <state width="623" height="446" key="SwitcherDM" timestamp="1604883862196">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="623" height="446" key="SwitcherDM/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604881583418" />
+    <state width="623" height="446" key="SwitcherDM/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604883862196" />
     <state x="552" y="269" width="347" height="264" key="VCS.EditChangelistDialog" timestamp="1604882529897">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

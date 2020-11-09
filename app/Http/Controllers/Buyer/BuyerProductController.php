@@ -9,6 +9,11 @@ use PharIo\Manifest\BundlesElement;
 
 class BuyerProductController extends ApiController
 {
+    public function __construct()
+    {
+        parent::construct();
+    }
+
     /**
      * Display a listing of the resource.
      *
