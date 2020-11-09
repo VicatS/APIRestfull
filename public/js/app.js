@@ -2114,7 +2114,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
     getTokens: function getTokens() {
       var _this = this;
 
-      axios.get('/oauth/personal-access-tokens').then(function (response) {
+      axios.get('/api/oauth/personal-access-tokens').then(function (response) {
         _this.tokens = response.data;
       });
     },
@@ -2125,7 +2125,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
     getScopes: function getScopes() {
       var _this2 = this;
 
-      axios.get('/oauth/scopes').then(function (response) {
+      axios.get('/api/oauth/scopes').then(function (response) {
         _this2.scopes = response.data;
       });
     },
@@ -2145,7 +2145,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 
       this.accessToken = null;
       this.form.errors = [];
-      axios.post('/oauth/personal-access-tokens', this.form).then(function (response) {
+      axios.post('/api/oauth/personal-access-tokens', this.form).then(function (response) {
         _this3.form.name = '';
         _this3.form.scopes = [];
         _this3.form.errors = [];
@@ -2197,7 +2197,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
     revoke: function revoke(token) {
       var _this4 = this;
 
-      axios["delete"]('/oauth/personal-access-tokens/' + token.id).then(function (response) {
+      axios["delete"]('/api/oauth/personal-access-tokens/' + token.id).then(function (response) {
         _this4.getTokens();
       });
     }
