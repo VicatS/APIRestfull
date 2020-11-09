@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c46e4352-843e-41b6-bf43-bfe50a4ef8fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/authorized-clients.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/personal-clients.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/passport/PersonalAccessTokens.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/passport/PersonalAccessTokens.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/passport/AuthorizedClients.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/passport/AuthorizedClients.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/passport/Clients.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/passport/Clients.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/personal-tokens.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/personal-tokens.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +163,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/emails" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -167,12 +175,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/emails" />
-      <recent name="$PROJECT_DIR$/app/Scopes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Category" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/home" />
+      <recent name="$PROJECT_DIR$/resources/views/emails" />
+      <recent name="$PROJECT_DIR$/app/Scopes" />
     </key>
   </component>
   <component name="RunManager">
@@ -203,7 +212,7 @@
       <workItem from="1604708626072" duration="3583000" />
       <workItem from="1604759600705" duration="100000" />
       <workItem from="1604792682547" duration="8033000" />
-      <workItem from="1604858338592" duration="23328000" />
+      <workItem from="1604858338592" duration="24389000" />
     </task>
     <task id="LOCAL-00001" summary="Implementando tranformacion para mostrar mensajes correctos y autenticacion">
       <created>1604863368968</created>
@@ -268,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604890977226</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="184. Acerca de los Tokens Personales y Como Usarlos">
+      <created>1604892841968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604892841968</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +300,8 @@
     <MESSAGE value="181. Usando el Grant Type Password- Revisar token laravel PAssword" />
     <MESSAGE value="182. Preparando la API para Usar los Componentes de Passport" />
     <MESSAGE value="183. Usando el Componente para Gestionar Tokens Personales" />
-    <option name="LAST_COMMIT_MESSAGE" value="183. Usando el Componente para Gestionar Tokens Personales" />
+    <MESSAGE value="184. Acerca de los Tokens Personales y Como Usarlos" />
+    <option name="LAST_COMMIT_MESSAGE" value="184. Acerca de los Tokens Personales y Como Usarlos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="41" width="800" height="719" key="#Plugins" timestamp="1604886934335">
@@ -299,10 +316,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604712580025" />
-    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604890976956">
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604892841772">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604890976956" />
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604892841772" />
     <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604890507760">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -311,18 +328,18 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1479" y="0" width="1022" height="737" key="SettingsEditor/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604801856122" />
-    <state width="623" height="446" key="SwitcherDM" timestamp="1604883862196">
+    <state width="623" height="446" key="SwitcherDM" timestamp="1604893029587">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="623" height="446" key="SwitcherDM/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604883862196" />
+    <state width="623" height="446" key="SwitcherDM/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604893029587" />
     <state x="552" y="269" width="347" height="264" key="VCS.EditChangelistDialog" timestamp="1604882529897">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="552" y="269" width="347" height="264" key="VCS.EditChangelistDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604882529897" />
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604887917930">
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604892851387">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604887917930" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604892851387" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1603747817509">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <passport-personal-access-tokens></passport-personal-access-tokens>
+        <passport-authorized-clients></passport-authorized-clients>
     </div>
 @endsection
 
