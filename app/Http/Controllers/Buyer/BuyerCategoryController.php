@@ -10,7 +10,7 @@ class BuyerCategoryController extends ApiController
 {
     public function __construct()
     {
-        parent::construct();
+        parent::__construct();
     }
 
     /**

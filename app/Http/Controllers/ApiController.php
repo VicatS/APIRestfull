@@ -6,6 +6,9 @@ use App\Traits\ApiResponser;
 use Illuminate\Http\Request;
 
 
+/**
+ * @method construct()
+ */
 class ApiController extends Controller
 {
     use ApiResponser;
