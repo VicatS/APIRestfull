@@ -8,19 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/apirestfull.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apirestfull.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TransformInput.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TransformInput.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Transformers/BuyerTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/BuyerTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Transformers/CategoryTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/CategoryTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Transformers/ProductTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/ProductTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Transformers/SellerTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/SellerTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Transformers/TransactionTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/TransactionTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Transformers/UserTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/UserTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +140,19 @@
       <path value="$PROJECT_DIR$/vendor/spatie/fractalistic" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-fractal" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jLZT0svCThpLApnv7mOn2qFOgn" />
@@ -202,12 +211,24 @@
       <workItem from="1604708626072" duration="3583000" />
       <workItem from="1604759600705" duration="100000" />
       <workItem from="1604792682547" duration="8033000" />
-      <workItem from="1604858338592" duration="2900000" />
+      <workItem from="1604858338592" duration="12314000" />
     </task>
+    <task id="LOCAL-00001" summary="Implementando tranformacion para mostrar mensajes correctos y autenticacion">
+      <created>1604863368968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604863368968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementando tranformacion para mostrar mensajes correctos y autenticacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando tranformacion para mostrar mensajes correctos y autenticacion" />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="41" width="800" height="719" key="#Plugins" timestamp="1603845702193">
@@ -222,6 +243,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604712580025" />
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604863368260">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604863368260" />
     <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1603928386739">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -234,13 +259,17 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="623" height="446" key="SwitcherDM/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604799464469" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604863394226">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604863394226" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1603747817509">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="600" height="428" key="javadoc.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1603747817509" />
-    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604862409884">
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604879312916">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604862409884" />
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604879312916" />
   </component>
 </project>
