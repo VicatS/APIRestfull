@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c46e4352-843e-41b6-bf43-bfe50a4ef8fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +202,7 @@
       <workItem from="1604708626072" duration="3583000" />
       <workItem from="1604759600705" duration="100000" />
       <workItem from="1604792682547" duration="8033000" />
-      <workItem from="1604858338592" duration="28450000" />
+      <workItem from="1604858338592" duration="29158000" />
     </task>
     <task id="LOCAL-00001" summary="Implementando tranformacion para mostrar mensajes correctos y autenticacion">
       <created>1604863368968</created>
@@ -289,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604898523997</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="187. Usando el Grant Type Implicito">
+      <created>1604899614497</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604899614497</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +314,8 @@
     <MESSAGE value="184. Acerca de los Tokens Personales y Como Usarlos" />
     <MESSAGE value="185. Usando los Componentes para Gestionar Clientes de la API" />
     <MESSAGE value="186. Obteniendo un Token con un Codigo de Autorizacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="186. Obteniendo un Token con un Codigo de Autorizacion" />
+    <MESSAGE value="187. Usando el Grant Type Implicito" />
+    <option name="LAST_COMMIT_MESSAGE" value="187. Usando el Grant Type Implicito" />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="41" width="800" height="719" key="#Plugins" timestamp="1604886934335">
@@ -323,10 +330,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604712580025" />
-    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604898523869">
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604899614431">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604898523869" />
+    <state x="258" y="27" width="912" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1604899614431" />
     <state x="514" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604890507760">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
